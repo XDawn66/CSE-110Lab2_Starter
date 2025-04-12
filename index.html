@@ -49,12 +49,7 @@
         <li>The next steps were outlined.</li>
     </ul>
 
-    <summary><strong>Concerns:</strong></summary>
-    <details>
-        <li>The CEO showed budget constraints</li>
-        <li>Ben requested extra resource allocation</li>
-        <li>The product enginners suggested timeline adjustments</li>
-    </details>
+   
 
     <picture>
         <img src="img/p1.webp" alt="Meeting Image" width = "500">
@@ -69,18 +64,23 @@
     <h2>Audio Record</h2>
     <audio controls>
         <source src="video/ibot.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
     </audio>
 
     <h2>Video Record</h2>
     <video width="480" controls>
         <source src="video/ibot.mov" type="video/mp4">
-        Your browser does not support the video tag.
-
-</body>
-
-<br>
-<h1><b>Send me a message</b></h1>
+    </video>
+    <details>
+    <summary><strong>Concerns:</strong></summary>
+    <ul>
+        <li>The CEO showed budget constraints</li>
+        <li>Ben requested extra resource allocation</li>
+        <li>The product enginners suggested timeline adjustments</li>
+    </ul>
+    </details>
+    
+    <br>
+    <h1><b>Send me a message</b></h1>
     <section class="contact-form">
       <form>
         <!-- Grouping form fields with <fieldset> -->
@@ -125,7 +125,7 @@
           <legend>Your Message</legend>
           <div class="field">
             <label for="message">Message</label>
-            <textarea
+            <textarea id = "message"
               name="message"
             ></textarea>
           </div>
@@ -135,7 +135,6 @@
         <button type="submit">Send</button>
       </form>
     </section>
-
 <hr>
 <footer id="footer">
     <h2>Contact Information</h2>
@@ -159,4 +158,5 @@
         </ul>
     </section>
   </footer>
+</body>
 </html>
